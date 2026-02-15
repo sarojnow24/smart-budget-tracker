@@ -3,15 +3,16 @@
   "version": "1.0.0",
   "type": "module",
   "engines": {
-    "node": ">=20.0.0"
+    "node": "18.x"
   },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "vite preview --port 4173",
+    "vercel-build": "vite build"
   },
   "dependencies": {
-    "@google/genai": "^0.2.1",
     "@supabase/supabase-js": "^2.39.0",
     "lucide-react": "^0.300.0",
     "react": "^18.2.0",
