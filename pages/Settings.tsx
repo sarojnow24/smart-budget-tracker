@@ -9,6 +9,7 @@ import {
   LogOut, ArrowRightLeft, ChevronDown, Tags, AlertTriangle, Zap, Users, User, Clock,
   UserPlus, Info, Send
 } from 'lucide-react';
+import CloudUploadIcon from '../components/CloudUploadIcon';
 import { LANGUAGE_NAMES, MOCK_ONLINE_LANGUAGES, MOCK_ONLINE_CURRENCIES } from '../constants';
 import { Account, Category, WalletMember } from '../types';
 import { cloudDrive } from '../services/cloudDrive';
