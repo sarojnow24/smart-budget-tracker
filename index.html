@@ -47,22 +47,6 @@
         console.error("Unhandled Rejection:", event.reason);
       });
 
-      tailwind.config = {
-        darkMode: 'class',
-        theme: {
-          extend: {
-            colors: {
-              gray: {
-                900: '#111827',
-                800: '#1f2937',
-                700: '#374151',
-                50: '#f9fafb',
-              }
-            }
-          }
-        }
-      }
-    </script>
     <style>
       html, body {
         overscroll-behavior-y: none;
@@ -93,7 +77,7 @@
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
+ import './index.css';
 </head>
   <body class="bg-gray-50 text-gray-900 antialiased selection:bg-blue-100 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-200">
     <div id="root"></div>
