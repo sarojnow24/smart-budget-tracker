@@ -13,6 +13,7 @@
     "vercel-build": "vite build"
   },
   "dependencies": {
+    "@google/genai": "^1.42.0",
     "@supabase/supabase-js": "^2.39.0",
     "lucide-react": "^0.300.0",
     "react": "^18.2.0",
