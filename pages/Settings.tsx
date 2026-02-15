@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useApp } from '../context/AppContext';
 import { 
   Trash2, Plus, Globe, DollarSign, LayoutDashboard, ChevronRight, ArrowLeft, X, 
-  RotateCcw, ToggleLeft, ToggleRight, CloudUpload, CloudDownload, Loader2,
+  RotateCcw, ToggleLeft, ToggleRight, Loader2,
   Banknote, CreditCard, Wallet as WalletIcon, Check, Edit2, Target, Palette,
   Sun, Moon, Monitor, Type, Download, Library,
   Cloud, RefreshCw, Database, Shield, Share2, Copy, 
