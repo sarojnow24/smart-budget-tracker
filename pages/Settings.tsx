@@ -375,7 +375,7 @@ const Settings: React.FC = () => {
                    disabled={isBackingUp || isRestoring} 
                    className="flex flex-col items-center justify-center gap-2 p-5 bg-blue-600 text-white rounded-[2rem] shadow-xl shadow-blue-500/20 active:scale-95 transition-all disabled:opacity-50 hover:bg-blue-700"
                  >
-                    {isBackingUp ? <Loader2 size={24} className="animate-spin" /> : <CloudUploadIcon className="w-6 h-6 text-blue-500" />}
+                    {isBackingUp ? <Loader2 size={24} className="animate-spin" /> : <CloudUpload className="w-6 h-6 text-blue-500" />}
                     <div className="text-center">
                         <p className="text-[11px] font-black uppercase tracking-widest leading-none">{t('backupNow')}</p>
                         <p className="text-[8px] font-medium text-blue-100 opacity-80">Save Settings & Data</p>
@@ -751,7 +751,7 @@ const Settings: React.FC = () => {
                  { id: 'appearance', label: t('interfaceStyling'), icon: Palette, color: 'text-purple-600', bg: 'bg-purple-50 dark:bg-purple-900/20' },
                  { id: 'categories', label: t('categoriesLabels'), icon: Tags, color: 'text-orange-600', bg: 'bg-orange-50 dark:bg-orange-900/20' },
                  { id: 'accounts', label: t('bankAccounts'), icon: Banknote, color: 'text-green-600', bg: 'bg-green-50 dark:bg-green-900/20' },
-                 { id: 'sync', label: t('cloudSync'), icon: CloudUploadIcon, color: 'text-cyan-600', bg: 'bg-cyan-50 dark:bg-cyan-900/20' },
+                 { id: 'sync', label: t('cloudSync'), icon: CloudUpload, color: 'text-cyan-600', bg: 'bg-cyan-50 dark:bg-cyan-900/20' },
                  { id: 'dashboard', label: t('displayLayout'), icon: LayoutDashboard, color: 'text-blue-600', bg: 'bg-blue-50 dark:bg-blue-900/20' },
                  { id: 'budgets', label: t('setBudget'), icon: Target, color: 'text-amber-600', bg: 'bg-amber-50 dark:bg-amber-900/20' },
                ].map((item) => (
