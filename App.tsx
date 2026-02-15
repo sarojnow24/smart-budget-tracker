@@ -8,7 +8,7 @@ import Settings from './pages/Settings';
 import Account from './pages/Account';
 import TransactionModal from './components/TransactionModal';
 import { Transaction, TransactionType } from './types';
-import { CloudDownload, Database, HardDrive, RefreshCw, X, Check, ArrowRightLeft, Loader2 } from 'lucide-react';
+import { Database, HardDrive, RefreshCw, X, Check, ArrowRightLeft, Loader2 } from 'lucide-react';
 
 const RestorePromptModal = () => {
   const { syncState, restoreBackup, t } = useApp();
