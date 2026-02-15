@@ -7,7 +7,7 @@ import {
   LogOut, User, Lock, CheckCircle, Eye, EyeOff, 
   Camera, Edit2, History, Smartphone, AlertTriangle, 
   BadgeCheck, Users, Share2, Plus, Copy, ChevronRight,
-  Trash2, CloudUpload, CloudDownload, RefreshCw, ArrowLeft, KeyRound,
+  Trash2, RefreshCw, ArrowLeft, KeyRound,
   Calendar, RotateCcw, Clock, Database, Save
 } from 'lucide-react';
 import { getAuthErrorMessage } from '../services/errorService';
