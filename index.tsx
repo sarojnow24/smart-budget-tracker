@@ -1,6 +1,19 @@
 import React, { ReactNode, ErrorInfo, Component } from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./index.tsx",
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}"
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
 
 interface ErrorBoundaryProps {
   children?: ReactNode;
