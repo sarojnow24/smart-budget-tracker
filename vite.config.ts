@@ -8,8 +8,7 @@ export default defineConfig(({ mode }) => {
   
   return {
     plugins: [react()],
-    // Base './' handles relative paths for HashRouter and works on Netlify
-    base: './',
+    // Base './' handles relative paths for HashRouter and works
     define: {
       // Safely replace specific env vars without clobbering NODE_ENV
       'process.env.API_KEY': JSON.stringify(env.API_KEY || process.env.API_KEY || ''),
