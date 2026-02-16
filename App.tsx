@@ -25,10 +25,7 @@ const RestorePromptModal = () => {
   return (
     <div className="fixed inset-0 z-[999] flex items-center justify-center bg-black/70 backdrop-blur-md p-6 overflow-y-auto">
       <div className="bg-white dark:bg-gray-800 w-full max-w-sm rounded-[2.5rem] shadow-2xl p-8 flex flex-col items-center animate-in zoom-in duration-300">
-        <div className="w-16 h-16 bg-blue-100 dark:bg-blue-900/30 text-blue-600 rounded-2xl flex items-center justify-center mb-6">
-           <CloudDownload size={32} />
-        </div>
-        
+               
         <h3 className="text-xl font-black text-gray-900 dark:text-white mb-2 uppercase tracking-tight text-center">{t('syncConflict')}</h3>
         <p className="text-[11px] text-gray-500 dark:text-gray-400 mb-8 leading-relaxed font-medium text-center">
           {t('foundBackup')}
