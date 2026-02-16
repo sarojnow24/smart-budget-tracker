@@ -328,7 +328,6 @@ const Account: React.FC = () => {
                  disabled={isBackingUp || isRestoring} 
                  className="flex flex-col items-center justify-center gap-2 p-4 bg-blue-600 text-white rounded-2xl shadow-lg shadow-blue-500/20 active:scale-95 transition-all disabled:opacity-50"
                >
-                  {isBackingUp ? <Loader2 size={20} className="animate-spin" /> : <CloudUpload size={20}/>}
                   <p className="text-[10px] font-black uppercase tracking-widest leading-none">{t('backupNow')}</p>
                </button>
 
@@ -337,7 +336,6 @@ const Account: React.FC = () => {
                  disabled={isBackingUp || isRestoring} 
                  className="flex flex-col items-center justify-center gap-2 p-4 bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700 rounded-2xl shadow-sm active:scale-95 transition-all disabled:opacity-50"
                >
-                  {isRestoring ? <Loader2 size={20} className="animate-spin text-blue-600" /> : <CloudDownload size={20} className="text-blue-600" />}
                   <p className="text-[10px] font-black uppercase tracking-widest leading-none text-gray-600 dark:text-gray-300">{t('restoreData')}</p>
                </button>
              </div>
